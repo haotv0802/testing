@@ -1,0 +1,13 @@
+syntax: glob
+WEB-INF/classes/
+WEB-INF/lib/
+*.orig
+.classpath
+.project
+.settings/
+target/
+.tern-project
+.springBeans
+*.iml
+*.~pck
+.idea/
