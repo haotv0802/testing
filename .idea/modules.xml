@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/testing.iml" filepath="$PROJECT_DIR$/testing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/client_module/client_module.iml" filepath="$PROJECT_DIR$/client_module/client_module.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dao_module/dao_module.iml" filepath="$PROJECT_DIR$/dao_module/dao_module.iml" />
+      <module fileurl="file://$PROJECT_DIR$/security_project.iml" filepath="$PROJECT_DIR$/security_project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service_module/service_module.iml" filepath="$PROJECT_DIR$/service_module/service_module.iml" />
     </modules>
   </component>
 </project>
