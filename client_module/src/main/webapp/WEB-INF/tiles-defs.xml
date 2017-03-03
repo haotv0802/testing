@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN" 
+"http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+
+<tiles-definitions>
+	<definition name="baseLayout" template="/WEB-INF/tiles/baseLayout.jsp">
+		<put-attribute name="title" value="Template" />
+		<put-attribute name="header" value="/WEB-INF/tiles/header.jsp" />
+		<put-attribute name="menu" value="/WEB-INF/tiles/menu.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/tiles/footer.jsp" />
+		<put-attribute name="body" value="/WEB-INF/tiles/body.jsp" />
+	</definition>
+
+	<definition name="login" extends="baseLayout">
+		<put-attribute name="title" value="Login Form" />
+		<put-attribute name="body" value="/WEB-INF/jsp/login.jsp" />
+	</definition>
+
+	<definition name="indivList" extends="baseLayout">
+		<put-attribute name="title" value="Individual List" />
+		<put-attribute name="body" value="/WEB-INF/jsp/individualList.jsp" />
+	</definition>
+
+	<definition name="indiv" extends="baseLayout">
+		<put-attribute name="title" value="Individual Form" />
+		<put-attribute name="body" value="/WEB-INF/jsp/individual.jsp" />
+	</definition>
+
+	<definition name="logout" extends="baseLayout">
+		<put-attribute name="title" value="Logout" />
+		<put-attribute name="body" value="/WEB-INF/jsp/logout.jsp" />
+	</definition>
+
+	<definition name="denied" extends="baseLayout">
+		<put-attribute name="title" value="Access denied" />
+		<put-attribute name="body" value="/WEB-INF/jsp/denied.jsp" />
+	</definition>
+</tiles-definitions>
